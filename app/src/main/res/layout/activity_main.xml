@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFB400">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/component_87"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/textmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOIN US"
+        android:layout_marginTop="400sp"
+        android:fontFamily="sans-serif"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:textSize="34sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whitebutton"
+        android:text="Sign In"
+        android:textSize="24sp"
+        android:padding="5sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textmain"
+        android:layout_marginTop="20sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whitebutton"
+        android:text="Sign Up"
+        android:textSize="24sp"
+        android:padding="5sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="20sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerfacebook"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whitebutton"
+        android:backgroundTint="#000000"
+        android:text="Sign In"
+        android:textSize="24sp"
+        android:padding="5sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textmain"
+        android:layout_marginTop="20sp"/>
+
+</RelativeLayout>
